@@ -1,0 +1,28 @@
+completions: []
+outlineMenu: []
+strings: []
+comments: []
+filenames: []
+interpreters: []
+commentDelimiters:
+  inlineDelimiter: ";"
+variables: []
+types: []
+characters: []
+metadata:
+  version: "0.1"
+  author: "Tony Edgecombe"
+  description: "Highlighting for ledger bookkeeping files."
+attributes: []
+keywords:
+- beginString: "^\\s*[a-zA-Z:]+"
+  regularExpression: true
+values:
+- beginString: "\\d{4}/\\d{2}/\\d{2}"
+  regularExpression: true
+commands: []
+extensions:
+- keyString: "ledger"
+numbers:
+- beginString: "[£$]\\-?\\d+(\\.\\d{1,2})?"
+  regularExpression: true
