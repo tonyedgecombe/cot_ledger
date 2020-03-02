@@ -1,28 +1,30 @@
-completions: []
-outlineMenu: []
-strings: []
-comments: []
-filenames: []
-interpreters: []
 commentDelimiters:
   inlineDelimiter: ";"
-variables: []
+interpreters: []
+filenames: []
 types: []
-characters: []
-metadata:
-  version: "0.1"
-  author: "Tony Edgecombe"
-  description: "Highlighting for ledger bookkeeping files."
-attributes: []
-keywords:
-- beginString: "^\\s*[a-zA-Z:]+"
-  regularExpression: true
+commands: []
 values:
 - beginString: "\\d{4}/\\d{2}/\\d{2}"
   regularExpression: true
-commands: []
-extensions:
-- keyString: "ledger"
+comments: []
 numbers:
 - beginString: "[£$]\\-?\\d+(\\.\\d{1,2})?"
   regularExpression: true
+characters: []
+strings: []
+keywords:
+- beginString: "^\\s*[a-zA-Z:]+"
+  regularExpression: true
+metadata:
+  distributionURL: "https://github.com/tonyedgecombe/cot_ledger"
+  author: "Tony Edgecombe"
+  license: "MIT"
+  description: "Highlighting for ledger bookkeeping files."
+  version: "0.1"
+attributes: []
+completions: []
+variables: []
+extensions:
+- keyString: "ledger"
+outlineMenu: []
