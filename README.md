@@ -1,2 +1,1 @@
-# cot_ledger
-Ledger Syntax for Cot Editor
+# Ledger Syntax for Cot Editor
